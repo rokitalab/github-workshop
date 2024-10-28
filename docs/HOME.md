@@ -5,7 +5,6 @@ permalink: /
 ---
 
 
-<p>
 This training workshop will introduce concepts in reproducible computational research for genomics, including Github tutorials, Docker usage, and code review.
 
 Before the workshop starts, be sure to visit our [Pre-workshop Setup page](setup_instructions/setup_overview.md) for instructions on preparing your computer for the workshop.
