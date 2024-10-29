@@ -12,7 +12,7 @@ If you need any assistance with the installation, please contact Ryan Corbett (c
 ### Visual Studio Code
 
 We will be writing code using [Visual Studio Code](https://code.visualstudio.com) text editor during the workshop, so we recommend downloading this if you do not have a preferred text editor. 
-Alternatively, other text editors can be used such as [VSCodium](https://vscodium.com) [Sublime](https://www.sublimetext.com) or [BBEdit](https://www.barebones.com/products/bbedit/) can also be used. 
+Alternatively, other text editors can be used such as [VSCodium](https://vscodium.com), [Sublime](https://www.sublimetext.com), or [BBEdit](https://www.barebones.com/products/bbedit/). 
 
 ## Account Setup
 
