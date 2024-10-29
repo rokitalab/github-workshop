@@ -28,6 +28,10 @@ minima 2.5.1
 
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
+        </li>
+        {%- if site.author -%}
+        {{ site.lab_website | escape }}
+        {%- endif -%}
       </div>
       <!-- Remove description
       <div class="footer-col footer-col-3">
