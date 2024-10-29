@@ -4,6 +4,8 @@ nav_title: Home
 permalink: /
 ---
 
+
+
 This training workshop will introduce concepts in reproducible computational research for genomics, including using git and Docker commands and navigating Github.
 
 After the workshop, users should be able to: 
