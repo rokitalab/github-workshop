@@ -26,9 +26,11 @@ minima 2.5.1
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <li><a class="link-style" href="{{ site.lab_website }}">{{ site.lab_website }}</a></li>
-        {%- include social.html -%}
+       <div class="footer-col footer-col-2">
+          {%- if site.lab_website -%}
+            <a class="link-style" href="{{ site.lab_website }}" target="_blank">{{ site.lab_website }}</a>
+          {%- endif -%}
+          {%- include social.html -%}
       </div>
       <!-- Remove description
       <div class="footer-col footer-col-3">
