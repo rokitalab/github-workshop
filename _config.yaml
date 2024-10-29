@@ -7,7 +7,7 @@ github_username: rokitalab
 theme: minima
 # Pages to appear in site header.
 header_home:
-  HOME.md
+  docs/HOME.md
 header_pages:
-  - setup_overview.md
-  - resources.md
+  - docs/setup_overview.md
+  - docs/resources.md
