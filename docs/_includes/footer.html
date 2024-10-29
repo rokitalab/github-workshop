@@ -6,11 +6,12 @@ minima 2.5.1
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
     <!-- Remove site title from header
       <h2 class="footer-heading">{{ site.title | escape }}</h2>
     -->
     <div class="footer-col-wrapper">
+      
+      <!-- Footer Column 1: Author Information -->
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
@@ -19,26 +20,28 @@ minima 2.5.1
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
+          </li>
+          {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          {%- endif -%}
         </ul>
       </div>
 
-       <div class="footer-col footer-col-2">
-          {%- if site.lab_website -%}
-            <a class="link-style" href="{{ site.lab_website }}" target="_blank">{{ site.lab_website }}</a>
-          {%- endif -%}
-          {%- include social.html -%}
+      <!-- Footer Column 2: Lab Website & Social Links -->
+      <div class="footer-col footer-col-2">
+        {%- if site.lab_website -%}
+          <div>
+            <a class="link-style" href="{{ site.lab_website }}" target="_blank" rel="noopener noreferrer">Lab Website</a>
+          </div>
+        {%- endif -%}
+        {%- include social.html -%}
       </div>
+
       <!-- Remove description
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
       -->
     </div>
-
   </div>
-
 </footer>
