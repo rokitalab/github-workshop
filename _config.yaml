@@ -9,4 +9,4 @@ theme: minima
 header_home:
   HOME.md
 header_pages:
-  - setup_instructions/setup_overview.md
+  - setup_overview.md
