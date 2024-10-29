@@ -23,5 +23,5 @@ You will need to create a [GitHub.com](https://github.com) account if you do not
 
 ### Docker
 
-We will be using Docker to showcase software and package tracking within github repositories. Please download [Docker Desktop](https://www.docker.com/products/docker-desktop/) prior to the workshop. 
+We will be using Docker to showcase software and package tracking within Github repositories. Please download [Docker Desktop](https://www.docker.com/products/docker-desktop/) prior to the workshop. 
 
