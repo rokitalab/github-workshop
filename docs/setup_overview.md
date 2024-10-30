@@ -5,7 +5,7 @@ nav_title: Setup
 
 Please complete all setup tasks __prior__ to the workshop, as we will not have time to go through installation steps and complete all goals of the workshop. 
 
-If you need any assistance with the installation, please contact Ryan Corbett (corbettr@chop.edu)<br>
+If you need any assistance with the installation, please contact Ryan Corbett (corbettr@chop.edu)<br><br>
 
 
 ## Workshop software requirements
@@ -20,7 +20,7 @@ Alternatively, other text editors can be used such as [VSCodium](https://vscodiu
 ### Command line tool (Mac users ONLY)
 
 Mac users will need to install `md5sum` in order to download data sets from AWS S3 via an executable shell script. 
-This can be done with [homebrew](https://brew.sh/) using the command `brew install coreutils`, or [conda/miniconda](https://docs.conda.io/projects/conda/en/latest/) using the command `conda install -c conda-forge coreutils`.<br>
+This can be done with [homebrew](https://brew.sh/) using the command `brew install coreutils`, or [conda/miniconda](https://docs.conda.io/projects/conda/en/latest/) using the command `conda install -c conda-forge coreutils`.<br><br>
 
 
 ## Account Setup
